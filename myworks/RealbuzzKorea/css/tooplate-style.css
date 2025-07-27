@@ -13,7 +13,27 @@ http://www.tooplate.com/view/2098-health
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
+  .section-divider {
+    border-top: 1px solid #cccccc70;  /* Gri ve ince çizgi */
+    margin-bottom: 90px !important;              /* Üst-alt boşluk */
+  }
 
+  .section-divider-text {
+    margin-bottom: 40px !important; /* istediğin değeri burada ayarlayabilirsin */
+  }
+  .mt-custom {
+    margin-top: 60px !important; /* istediğin değeri burada ayarlayabilirsin */
+  }
+  
+  .equal-img {
+    margin-top: 2rem;
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* Orantıyı koruyarak resmi kırp */
+    border-radius: 8px; /* Köşeleri yumuşatma opsiyonel */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+  
 
   /*---------------------------------------
      TYPOGRAPHY              
@@ -478,7 +498,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
+    background: url('../images/about-bg.png') no-repeat top center;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
