@@ -1,1 +1,1 @@
-# jackpotcast
+# StudioGate
